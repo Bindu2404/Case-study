@@ -1,0 +1,34 @@
+<form action="action_page.php">
+
+  <div class="container">
+    <h1>Contact Management System</h1>
+     Please fill in this form to record your details.
+    <div style="text-align: right;"><input type="text" name="search" placeholder="Search.." float="right">
+    <button type="submit" float="right">Search</button> 
+    </div>
+    <hr>
+    
+    
+    <p><label for="fname"><b>First Name</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Eg.Nora" required></p>
+    <p><label for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Eg.Smith"></p>
+    <p><label for="email"><b>Email</b></label>
+    <input type="text" id="email" name="email" placeholder="Enter Email" required></p>
+    <p><label for="DoB"><b>Date of Birth</b></label>
+    <input type="date" id="DoB" name="dateofbirth" required></p>
+    <p><label for="add"><b>Address</b></label>
+    <input type="text" id="add" name="address" placeholder="Eg.Door No...." required></p>
+    <p><label for="city"><b>City</b></label>
+    <input type="text" id="city" name="city" placeholder="Enter city name" required></p>
+    <p><label for="pincode"><b>Pincode</b></label>
+    <input type="text" id="pincode" placeholder="Enter 6-digit Pincode" pattern="^[0-9]{6}$" required></p>
+    <p><label for="phone"><b>Phone Number</b></label>
+    <input type="tel" id="phone" name="phone" placeholder="Please enter 10-digit phone number" pattern="[1-9]{1}[0-9]{9}" required></p>
+    
+    <button type="submit">SUBMIT</button>
+    </pre>
+  </div>
+
+ 
+</form>
